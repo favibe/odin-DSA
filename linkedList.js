@@ -121,7 +121,7 @@ class LinkedList {
     return str;
   }
 
-  // Extra Credit: Insert at index
+  // Insert at index
   insertAt(value, index) {
     if (index === 0) {
       this.prepend(value);
